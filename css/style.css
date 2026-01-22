@@ -1,0 +1,7 @@
+  body{
+            /* background-image:url("./images/cricketteam.jpg");
+            background-repeat:repeat-y;
+            background-color: aquamarine; */
+            background:url("../images/cricketteam.jpg") repeat-y aquamarine
+
+        }
