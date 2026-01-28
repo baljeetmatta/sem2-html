@@ -1,9 +1,81 @@
 <html>
    <head>
     <link rel="stylesheet" href="./css/style.css"/>
-    
+    <style>
+        /* td{
+            background-color: yellow;
+
+        }
+        .blue-table td{
+            background-color: lightblue;
+        }
+        .red-table,.red-table-1{
+            background-color: red;
+            padding: 10px;
+        }
+        .red-table-1{
+            color:blue;
+            padding: 2px;
+            margin-top:5px;
+
+        } */
+         td{
+            background-color: yellow;
+            padding:10px;
+            color:red;
+         }
+         td{
+            background-color: lightblue;
+            padding:5px;
+         }
+         .test{
+            background-color: green;
+         }
+         /* Tag, ID, Class, combinators 
+         space-nested
+         
+         */
+         #paras  p{
+            background-color: purple;
+         }
+
+    </style>
    </head>
     <body >
+        <div id="paras">
+            <p>Another 1</p>
+            <p>Another 2</p>
+            <div>
+                <p>Another 3</p>
+            </div>
+            <p>Another 4</p>
+        </div>
+<table>
+    <tr>
+        <td bgcolor="red" class="test" style="background-color:aqua;">First</td>
+        <td>Second</td>
+        <td>Second</td>
+    </tr>
+    <tr>
+        <td>First</td>
+        <td>Second</td>
+        <td>Second</td>
+    </tr>
+</table>
 
+<div class="red-table">Contnet </div>
+<div class="red-table-1">Contnet</div>
+<table class="blue-table">
+    <tr>
+        <td>First</td>
+        <td>Second</td>
+        <td>Second</td>
+    </tr>
+    <tr>
+        <td>First</td>
+        <td>Second</td>
+        <td>Second</td>
+    </tr>
+</table>
     </body>
 </html>

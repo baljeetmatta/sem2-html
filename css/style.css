@@ -1,7 +1,14 @@
   body{
             /* background-image:url("./images/cricketteam.jpg");
             background-repeat:repeat-y;
-            background-color: aquamarine; */
+            background-color: aquamarine; 
             background:url("../images/cricketteam.jpg") repeat-y aquamarine
+            */
 
         }
+        /*
+        internal <style>
+        external <link rel="stylesheet" href="css/style.css">
+        inlinecss  style
+priority , sequence
+        */
